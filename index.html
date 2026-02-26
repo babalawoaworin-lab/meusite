@@ -3,98 +3,218 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Minha Franquia</title>
+<title>Vivarth - Transforme Sua Vida com Produtos Premium e Negócio Multinível</title>
 
 <style>
 body{
-margin:0;
-font-family:Arial, sans-serif;
-background:#111;
-color:white;
-text-align:center;
+  margin:0;
+  font-family: Arial, sans-serif;
+  color:#222;
+  background:#f7f7f7;
 }
 
-.hero{
-padding:100px 20px;
-background:linear-gradient(135deg,#000,#222);
+header{
+  background:#0a6d3d;
+  color:white;
+  padding:60px 20px;
+  text-align:center;
 }
 
-h1{
-font-size:40px;
-margin-bottom:20px;
+header h1{
+  font-size:42px;
+  margin-bottom:10px;
 }
 
-.botao{
-background:#00ff88;
-color:black;
-padding:15px 30px;
-text-decoration:none;
-font-weight:bold;
-border-radius:8px;
-display:inline-block;
-margin-top:20px;
+header p{
+  font-size:22px;
 }
 
-.secao{
-padding:60px 20px;
+.btn-primary{
+  background:#fee338;
+  color:#0a6d3d;
+  padding:15px 30px;
+  font-size:20px;
+  text-decoration:none;
+  border-radius:8px;
+  display:inline-block;
+  margin-top:20px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+section{
+  padding:60px 20px;
+}
+
+h2{
+  font-size:32px;
+  color:#0a6d3d;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.card{
+  background:white;
+  border-radius:10px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
+  padding:25px;
+  margin:20px auto;
+  max-width:900px;
+}
+
+.produto{
+  display:flex;
+  align-items:center;
+  margin-bottom:30px;
+}
+
+.produto img{
+  width:200px;
+  margin-right:20px;
+  border-radius:10px;
 }
 
 .formulario{
-background:#222;
-padding:40px;
-border-radius:10px;
-max-width:400px;
-margin:0 auto;
+  background:white;
+  padding:40px;
+  border-radius:10px;
+  max-width:500px;
+  margin:0 auto;
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
 input{
-width:100%;
-padding:10px;
-margin:10px 0;
-border:none;
-border-radius:5px;
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border:1px solid #ccc;
+  border-radius:5px;
 }
 
 button{
-background:#00ff88;
-border:none;
-padding:15px;
-width:100%;
-font-weight:bold;
-border-radius:5px;
-cursor:pointer;
+  background:#0a6d3d;
+  color:white;
+  padding:15px;
+  width:100%;
+  border:none;
+  font-size:18px;
+  border-radius:5px;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+footer{
+  background:#222;
+  color:white;
+  padding:20px;
+  text-align:center;
+  font-size:14px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="hero">
-<h1>Seja Dono do Seu Próprio Negócio</h1>
-<p>Modelo validado, suporte completo e alta lucratividade.</p>
-<a href="#contato" class="botao">Quero Saber Mais</a>
-</div>
+<header>
+  <h1>Vivarth</h1>
+  <p>Descubra o Poder dos Produtos Premium e Conquiste Sua Liberdade Financeira</p>
+  <a class="btn-primary" href="#contato">Quero Participar</a>
+</header>
 
-<div class="secao">
-<h2>Por que investir?</h2>
-<p>✔ Modelo testado<br>
-✔ Baixo investimento inicial<br>
-✔ Alto retorno financeiro</p>
-</div>
+<section id="impacto">
+  <h2>Transforme Sua Saúde e Sua Vida</h2>
+  <div class="card">
+    <p>
+      Você já imaginou poder mudar de vida com produtos que realmente funcionam, serem reconhecidos por isso e ainda ganhar dinheiro enquanto ajuda outras pessoas?
+      A Vivarth é a oportunidade que você esperava: produtos premium para saúde, bem‑estar e emagrecimento aliados a um plano de negócios inovador!
+    </p>
+  </div>
+</section>
 
-<div class="secao" id="contato">
-<h2>Receba Mais Informações</h2>
+<section id="produtos">
+  <h2>Produtos Premium que Encantam</h2>
 
-<div class="formulario">
-<form>
-<input type="text" placeholder="Seu nome" required>
-<input type="email" placeholder="Seu e-mail" required>
-<input type="text" placeholder="Seu WhatsApp" required>
-<button type="submit">Enviar</button>
-</form>
-</div>
+  <div class="card produto">
+    <img src="URL_IMAGEM_PERFUME_1" alt="Perfume Premium">
+    <div>
+      <h3>Perfumes Premium (Linha Numerada)</h3>
+      <p>Perfumes exclusivos, contra tipos famosos, com fragrâncias marcantes que vendem por si mesmos.</p>
+    </div>
+  </div>
 
-</div>
+  <div class="card produto">
+    <img src="URL_IMAGEM_CAPSULA" alt="Suplemento">
+    <div>
+      <h3>Suplementos Naturais e Emagrecimento</h3>
+      <p>Produtos encapsulados para apoiar saúde, foco e performance, feitos com ingredientes naturais.</p>
+    </div>
+  </div>
+
+  <div class="card produto">
+    <img src="URL_IMAGEM_CREATINA" alt="Creatina em Goma">
+    <div>
+      <h3>Creatina em Goma e Suplementos Exclusivos</h3>
+      <p>Inovação em formato e eficiência — produtos diferenciados que facilitam a venda e fidelização.</p>
+    </div>
+  </div>
+
+  <p>Adicione mais fotos dos seus produtos substituindo as URLs acima.</p>
+</section>
+
+<section id="como-funciona">
+  <h2>Como Funciona o Negócio</h2>
+  <div class="card">
+    <h3>Seu Caminho para Resultados Reais</h3>
+    <p>1. Escolha o kit que mais combina com você;</p>
+    <p>2. Use os produtos e compartilhe com sua rede;</p>
+    <p>3. Ganhe comissões imediatas em todas as suas vendas;</p>
+    <p>4. Construa sua equipe e amplie seus ganhos;</p>
+    <p>5. Suba de nível no plano de carreira e conquiste reconhecimento e bônus.</p>
+  </div>
+</section>
+
+<section id="kits">
+  <h2>Kits de Entrada Disponíveis</h2>
+  <div class="card">
+    <h3>Kit Iniciante — R$300</h3>
+    <p>2 Perfumes + 1 Suplemento → 130 pontos iniciais</p>
+    <h3>Kit Intermediário — R$500</h3>
+    <p>3 Perfumes + 2 Suplementos + 1 Premium → 290 pontos</p>
+    <h3>Kit Premium — R$1.000</h3>
+    <p>5 Perfumes + 3 Premium + 5 Suplementos + Brinde Exclusivo → 640 pontos</p>
+  </div>
+</section>
+
+<section id="comissoes">
+  <h2>Comissões e Premiações</h2>
+  <div class="card">
+    <h3>Ganhos com Comissões</h3>
+    <p>💰 100% de lucro na revenda direta.</p>
+    <p>👥 Bônus por indicação direta.</p>
+    <p>📈 Bônus Binário — você recebe dos dois lados da sua equipe menor.</p>
+    <p>🔥 Bônus de ativação mensal baseado em pontos da equipe.</p>
+    <h3>Premiações Exclusivas</h3>
+    <p>🏆 Viagens nacionais e internacionais</p>
+    <p>🚘 Carro elétrico como prêmio especial</p>
+    <p>📱 iPhone e gadgets de reconhecimento</p>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Quer Começar Agora?</h2>
+  <div class="formulario">
+    <form action="https://api.whatsapp.com/send?phone=SEUNUMEROWHATSAPP&text=Olá!%20Quero%20saber%20mais%20sobre%20Vivarth" target="_blank">
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <input type="text" placeholder="Seu WhatsApp" required>
+      <button type="submit">Enviar e Entrar em Contato</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>Vivarth © 2026 — Todos os votos de sucesso e prosperidade</p>
+</footer>
 
 </body>
 </html>
